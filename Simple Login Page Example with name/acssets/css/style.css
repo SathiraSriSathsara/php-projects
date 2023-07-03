@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css?family=Ubuntu&display=swap');
+
+/* Coded By Sathira Sri Sathsara */
+
+body{
+    font-family: 'Ubuntu', sans-serif;
+    background-color: aliceblue;
+}
+
+.container{
+    width: 300px;
+    background-color: #f0f0f0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    padding: 40px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.container input[type="text"],
+.container input[type="password"]{
+    width: 70%;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.container input[type="submit"]{
+    width: 80%;
+    color: #fff;
+    background-color: black;
+    border-radius: 4px;
+    padding: 2%;
+    cursor: pointer;
+}
+
+
+
+h1{
+    margin-bottom: 20px;
+    font-size: 28px;
+    text-align: center;
+    color: #333;
+}
+
+.logo{
+    padding: 20px;
+    width: 80px;
+}
+
+p{
+    font-size: 15px;
+    font: optional;
+    color: #333;
+    padding: 10px;
+}
